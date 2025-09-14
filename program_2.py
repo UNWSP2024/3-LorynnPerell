@@ -8,7 +8,17 @@
 def categorize_age(age):
     ageCategory = "TBD"
     ######################
-    # WRITE YOUR CODE HERE
+    age = float(input("Enter the person's age: "))
+    if age <= 1:
+        print("The person is an infant.")
+    elif age < 13:
+        print("The person is a Child")
+    elif age < 20:
+        print("The person is a teenager.")
+    else:
+        print("The person is an adult.")
+
+        
     ######################
 
 
