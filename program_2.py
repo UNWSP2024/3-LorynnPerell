@@ -9,13 +9,13 @@ def categorize_age(age):
     ageCategory = "TBD"
     ######################
     if age <= 1:
-        print("The person is an "infant".")
+        print("infant.")
     elif age < 13:
-        print("The person is a "Child".")
+        print("Child.")
     elif age < 20:
-        print("The person is a "teenager".")
+        print("Teenager.")
     else:
-        print("The person is an "adult".")
+        print("Adult.")
 
         
     ######################
