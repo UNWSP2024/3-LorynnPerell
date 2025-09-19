@@ -22,10 +22,10 @@ def weight_conversion(weight):
     else:
         rate = 4.75
     
-    shippingcost = weight * rate
+    shippingCost = weight * rate
     ######################
     
-    return shippingcost
+    return shippingCost
 
 #### This piece of the code has been done for you,
 #### you only need to worry about the actual shipping 
