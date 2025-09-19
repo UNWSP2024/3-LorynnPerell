@@ -16,16 +16,16 @@ def weight_conversion(weight):
     if weight <= 2:
         rate = 1.50
     elif weight <= 6:
-        rate = 3
+        rate = 3.00
     elif weight <= 10:
-        rate = 4
+        rate = 4.00
     else:
         rate = 4.75
     
-    cost = weight * rate
+    shippingcost = weight * rate
     ######################
     
-    return cost
+    return shippingcost
 
 #### This piece of the code has been done for you,
 #### you only need to worry about the actual shipping 
