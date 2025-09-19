@@ -21,6 +21,9 @@ def weight_conversion(weight):
         rate = 4
     else:
         rate = 4.75
+    
+    cost = weight * rate
+    print(f"Shipping cost: ${cost: .2f}")
     ######################
     
     return shippingCost
