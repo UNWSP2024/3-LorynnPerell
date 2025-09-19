@@ -15,9 +15,7 @@ def categorize_age(age):
     elif age < 20:
         print("Teenager.")
     else:
-        print("Adult.")
-
-        
+        print("Adult.")  
     ######################
 
 
