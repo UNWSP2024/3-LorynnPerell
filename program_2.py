@@ -9,13 +9,13 @@ def categorize_age(age):
     ageCategory = "TBD"
     ######################
     if age <= 1:
-        print("infant.")
+        ageCategory = "Infant"
     elif age < 13:
-        print("Child.")
+        ageCategory = "Child"
     elif age < 20:
-        print("Teenager.")
+        ageCategory = "Teenager"
     else:
-        print("Adult.")  
+        ageCategory = "Adult"  
     ######################
 
 
