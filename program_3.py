@@ -23,10 +23,9 @@ def weight_conversion(weight):
         rate = 4.75
     
     cost = weight * rate
-    print(f"Shipping cost: ${cost: .2f}")
     ######################
     
-    return shippingCost
+    return cost
 
 #### This piece of the code has been done for you,
 #### you only need to worry about the actual shipping 
