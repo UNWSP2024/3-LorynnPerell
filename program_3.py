@@ -14,13 +14,13 @@ def weight_conversion(weight):
     shippingCost = 0.0
     ######################
     if weight <= 2:
-        rate = 1.50
+        rate = "1.50"
     elif weight <= 6:
-        rate = 3.00
+        rate = "3.00"
     elif weight <= 10:
-        rate = 4.00
+        rate = "4.00"
     else:
-        rate = 4.75
+        rate = "4.75"
     ######################
     
     return shippingCost

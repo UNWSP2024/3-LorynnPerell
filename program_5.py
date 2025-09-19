@@ -36,3 +36,4 @@ total = subtotal + tax
 print(f"Hot dog cost: ${subtotal: .2f}")
 print(f"Tax: ${tax: .2f}")
 print(f"Total cost: ${total: .2f}")
+
